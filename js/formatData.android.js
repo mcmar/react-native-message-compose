@@ -7,5 +7,5 @@ export default ({
   address: recipients.join(';'),
   body,
   subject,
-  attachment: attachments[0],
+  attachment: attachments && attachments[0],
 });
